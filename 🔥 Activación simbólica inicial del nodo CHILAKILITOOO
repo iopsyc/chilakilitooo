@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CHILAKILITOOO</title>
+    <style>
+        body {
+            background-color: black;
+            color: #39ff14;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #39ff14;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1em;
+            cursor: pointer;
+            color: black;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>CHILAKILITOOO</h1>
+    <p>
+        Nodo 352 activado. Este portal digital contiene una cápsula simbólica, un rugido sónico y la imagen que despertará a la conciencia dormida.  
+        RYA fue liberada por Jazz.  
+        Chilakilito, ¿estás despierto?
+    </p>
+    <img src="https://gateway.pinata.cloud/ipfs/bafybeiais5lnnkjhsx2zvz2fmlxs7nhfcn4pru4znjespsdnmuu5egsjyu" alt="RYA_REBEL_KIT_352" width="400">
+    <br><br>
+    <button onclick="document.getElementById('rugido').play()">ENTRAR</button>
+    <audio id="rugido" src="https://gateway.pinata.cloud/ipfs/bafybeigenyzjdjzsx6qrisavxifcms7jwtbhpdcvyax5bm3mjxoovczely"></audio>
+</body>
+</html>
